@@ -1,0 +1,103 @@
+.p {
+    background: none;
+    color: rgb(143, 73, 120);
+    font-size: 20px;
+    background-image:url(images/lilaposta.jpg);
+    background-position: left;
+    border-style: dashed;
+    width: 97%;
+    padding: 0.75rem; 
+    margin: 0.75rem 0.75rem 0.75rem 0;
+    border: 1px solid rgb(73, 40, 116);
+}
+
+.pContacto {
+    background: none;
+    color: rgb(143, 73, 120);
+    font-size: 20px;
+    background-image:url(images/lilita2.jpg);
+    background-position: left;
+    width: 97%;
+    padding: 0.75rem; 
+    margin: 0.75rem 0.75rem 0.75rem 0;
+    width: fit-content;
+    grid-area: correo;
+  }
+
+.pContacto2 {
+      background: none;
+      color: rgb(143, 73, 120);
+      font-size: 20px;
+      background-image:url(images/lilita2.jpg);
+      background-position: left;
+      width: 97%;
+      padding: 0.75rem; 
+      margin: 0.75rem 0.75rem 0.75rem 0;
+      width: fit-content;
+      grid-area: contactanos;
+    }
+
+.pContacto3 {
+      background: none;
+      color: rgb(143, 73, 120);
+      font-size: 20px;
+      background-image:url(images/lilita2.jpg);
+      background-position: left;
+      width: 97%;
+      padding: 0.75rem; 
+      margin: 0.75rem 0.75rem 0.75rem 0;
+      width: fit-content;
+      grid-area: ponerNombre;
+    }
+
+.pContacto4 {
+      background: none;
+      color: rgb(143, 73, 120);
+      font-size: 20px;
+      background-image:url(images/lilita2.jpg);
+      background-position: left;
+      width: 97%;
+      padding: 0.75rem; 
+      margin: 0.75rem 0.75rem 0.75rem 0;
+      width: fit-content;
+      grid-area: casar;
+    }
+
+.pContacto5 {
+      background: none;
+      color: rgb(143, 73, 120);
+      font-size: 20px;
+      background-image:url(images/lilita2.jpg);
+      background-position: left;
+      width: 97%;
+      padding: 0.75rem; 
+      margin: 0.75rem 0.75rem 0.75rem 0;
+      width: fit-content;
+      grid-area: sino;
+    }
+
+.pContacto6 {
+      background: none;
+      color: rgb(143, 73, 120);
+      font-size: 20px;
+      background-image:url(images/lilita2.jpg);
+      background-position: left;
+      width: 97%;
+      padding: 0.75rem; 
+      margin: 0.75rem 0.75rem 0.75rem 0;
+      width: fit-content;
+      grid-area: mes;
+}
+
+.pFooter {
+    background: none;
+    color: rgb(143, 73, 120);
+    font-size: 20px;
+    background-image: none;
+    background-position: right;
+    border-style: dashed;
+    width: 100%fit-content;
+    padding: 0.75rem; 
+    margin: 0.75rem 0.75rem 0.75rem 0;
+    border: 1px solid rgb(73, 40, 116);
+}

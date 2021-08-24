@@ -1,0 +1,117 @@
+#iconos { 
+    display: grid;
+    grid-template-columns: 12.5% auto 30%;
+  
+    grid-template-areas:
+      "iconos2 iconos1 iconos1 iconos4"
+      "iconos3 iconos1 iconos1 iconos5";
+    gap: 0.1rem;
+    /*height: 100vh;*/
+    width: 99%;
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  #iconos1 {
+    grid-area: iconos1;
+    width: 99%;
+  }
+  #iconos2 {
+    grid-area: iconos2;
+    width: 99%;
+  }
+  #iconos3 {
+    grid-area: iconos3;
+    width: 99%;
+  }
+  #iconos4 {
+    grid-area: iconos4;
+    width: 99%;
+  }
+  #iconos5 {
+    grid-area: iconos5;
+    width: 99%;
+  }
+  
+  #iconos img {
+    width: 100%;
+  }
+  
+  #iconos5 img {
+    width: 60%;
+  }
+  
+  #grilla {
+      background-image: url("images/lilita.jpg");
+      background-repeat: repeat;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 12.5% repeat(5,auto) 12.5%;
+      
+      grid-template-areas:
+      "nombre contactanos"
+      "ponerNombre cuadro" 
+      "correo cuadro"
+      "mail mes"
+      "casar sino"
+      "enviar limpiar"
+      "contacto contacto";
+  
+    gap: 0.1rem;
+    height: 100vh;
+  }
+  
+   #cabezota {
+    background-image: url("images/lilita.jpg");
+    background-repeat: repeat;
+    width: 100%;
+    height: auto;
+  }
+   .nombre {
+      grid-area: nombre;
+    }
+   .contactanos { 
+      grid-area: contactanos;
+    }
+   .ponerNombre {
+      grid-area: ponerNombre;
+    }
+   .cuadro {
+      grid-area: cuadro;
+    }  
+   .correo {
+      grid-area: correo;
+    } 
+    .mes {
+      grid-area: mes;
+    }
+    .mail {
+      grid-area: mail;
+    }
+    .casar {
+      grid-area: casar;
+    }
+    .sino{
+      grid-area: sino;
+    }
+    .enviar {
+      grid-area: enviar;
+      background-image: url("images/lila2.jpg");
+      text-align: center;
+    }
+    .limpiar {
+      grid-area: limpiar;
+      background-image: url("images/lila2.jpg");
+      background-position: left;
+    }
+    .contacto {
+      grid-area: contacto;
+      background-image: url("images/lila2.jpg");
+      background-repeat: repeat;
+      width: 100%;
+      grid-area: contacto;
+    }
+    
+    #patitas {
+      grid-area: patitas;
+    }

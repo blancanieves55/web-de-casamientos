@@ -1,0 +1,79 @@
+@import "partials/_colores.scss";
+@import "partials/_media.scss";
+@import "partials/_footer.scss";
+@import "partials/_grillas.scss";
+@import "partials/_imagenes.scss";
+@import "partials/_P.scss";
+@import "partials/_H.scss";
+@import "partials/_nav.scss";
+
+body {
+    background-color: white;
+    font-family: 'Lobster', cursive;
+}
+
+#mobileFirst {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.paginaPrincipal {
+    font-family: 'Otomanopee One', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 4rem;
+}
+
+.paginaPrincipal img {
+  width: 50%;
+  height: auto;
+}
+
+.ul { 
+    list-style-image: url("images/icono1.png");
+}
+
+.relleno1 { 
+  background-repeat: no-repeat;
+  width: 100;
+  height: 350;
+  background-size: 150px;
+  background-repeat: no-repeat;
+  width: fit-content;
+  margin: 0.2rem 10rem 0.5rem; padding-right: 0.5 rem;
+  display: flex;
+  flex-direction:column;
+  justify-content:space-evenly;
+  flex-wrap: wrap;
+} 
+
+.transicionCeleste {
+  width: 150px; height: 150px;
+  transition: all 2s;      
+}
+
+.transicionCeleste:hover {
+  height: 250px; width: 250px;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+  flex-wrap: wrap;
+  grid-area: cabezota;
+}
+.inputNombreYCorreo {
+      width: 150px; height: 25px;
+      transition: all 2s;       
+   }
+  
+input:focus {
+      width: 250px;
+      font-size: 24px;
+   }
