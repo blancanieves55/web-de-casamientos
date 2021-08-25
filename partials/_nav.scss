@@ -1,23 +1,26 @@
-nav ul li a { /* margen izq */
-    margin-left: 0rem;
-}
 
-nav ul ul {
-    position: absolute; /* con esto queda posicionada en forma absuluta pero relativa a su padre */
-}
-
-nav ul li:hover {
+nav ul {
+        li:hover {
     /* efecto sobre los items del menu cuando pasamos por arriba */
     background-color: rgb(142, 140, 155);
     cursor: pointer;
-}
 
-nav ul ul li {
+                 ul li { /* submenu */
+        background-image: linear-gradient( #c300ff, white);
+        display: block;
+        width: 100%;
+                    }
+
+             a { /* margen izq */
+    margin-left: 0rem;
+                }
+            }
+                
+        ul {
+    position: absolute; /* con esto queda posicionada en forma absuluta pero relativa a su padre */
+
+             li {
     display: none;
-}
-
-nav ul li:hover ul li { /* submenu */
-    background-image: linear-gradient( #c300ff, white);
-    display: block;
-    width: 100%;
-}
+                }
+            }
+        }

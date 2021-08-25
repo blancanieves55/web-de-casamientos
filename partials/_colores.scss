@@ -17,34 +17,29 @@ table {
 }
 
 .fondoPantallaPrincipal {
-    background-image: url("images/fondolila.jpg");
+    background-image: url("../images/fondolila.jpg");
     width: 100%;
     background-size: contain;
 }
 
 .fondoLilaTablas {
-    background-image: url("images/lila2.jpg");
+    background-image: url("../images/lila2.jpg");
     background-repeat: repeat;
     width: 100%;
 }
 
 .fondoLilaPantallasAbajo {
-    background-image: url("images/lilita.jpg");
+    background-image: url("../images/lilita.jpg");
     background-repeat: repeat;
 }
 
 .fondoLilaOtrasPantallas {
-    background-image: url("images/lila.jpg");
+    background-image: url("../images/lila.jpg");
     background-repeat: repeat;
 }
 
 .letraFrenteRosa {
     color: rosybrown;
-}
-
-.th {
-    background: rgb(3, 182, 226);
-    color: rgba(0, 255, 42, 0.836);
 }
 
 th {
