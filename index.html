@@ -1,109 +1,169 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=, initial-scale=1.0">
-        <title>HOME</title>
-        <link rel="stylesheet" href="./estilos/main.css">
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="main.css">
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    </head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 
-    <body>
-        <div id="mobileFirst">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <div id="mobileFirst">
         <div class="fondoPantallaPrincipal">
             <br>
-            <header> <!--1-->
+            <header>
+                <!--1-->
                 <div>
-                    <nav>
-                        <ul>
-                            <li><a href="index.html">HOME</a></li>
-                            <li><a href="eze.html">TIPOS DE SITES</a></li>
-                            <li><a href="jime.html">CONTENIDOS</a></li>
-                            <li><a href="juntos.html">PROVEEDORES</a></li>
-                            <li><a href="propuestas.html">PROPUESTAS</a></li>
-                            <li><a href="contacto.html">CONTACTO</a></li>
-                        </ul>
+                    <nav class="navbar navbar-expand-lg navbar-light">
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon bg-light"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="eze.html">Tipos de Sites</a>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="jime.html">Contenidos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="juntos.html">Proveedores</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="propuestas.html">Propuestas</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contacto.html">Contactos</a>
+                                </li>
+                            </ul>
+                        </div>
                     </nav>
                 </div>
             </header>
             <br><br>
             <main>
-                <section class="titulo"> <!--2-->
-                    <div>
+                <section class="titulo">
+                    <!--2-->
+                    <div class="container-fluid text-info">
                         <h1 class="h1Principal">WEB DE CASAMIENTOS</h1>
                     </div>
                 </section>
-                <section class="descripcion"> <!--3-->
-                    <div>
+                <section class="descripcion">
+                    <!--3-->
+                    <div class="container-fluid">
                         <h2 class="paginaPrincipal">TODOS LOS SERVICIOS ONLINE EN EL MISMO LUGAR</h2>
                     </div>
                     <div class="paginaPrincipal">
-                        <img src="images/foto1.jpg" alt="" width="500" height="350">
+                        <img src="images/foto1.jpg" class="img-thumbnail" alt="">
                         <br><br><br>
                     </div>
                 </section>
-                <section id="iconos"> <!--4-->
+                <section id="iconos">
+                    <!--4-->
+
                     <div id="iconos1">
-                        <h3> CON NOSOTROS, PODES ELEGIR EL TEMA DE LA PAGINA PARA TU CASAMIENTO, JUNTO CON ESA
-                            DESICION,
-                            PODES COMPARTIR ONLINE TODOS LOS DETALLES DEL DIA MAS ESPECIAL DE TU VIDA </h3>
+                        <div class="container-fluid text-center">
+                            <h3> CON NOSOTROS, PODES ELEGIR EL TEMA DE LA PAGINA PARA TU CASAMIENTO, JUNTO CON ESA
+                                DESICION,
+                                PODES COMPARTIR ONLINE TODOS LOS DETALLES DEL DIA MAS ESPECIAL DE TU VIDA </h3>
+                        </div>
                     </div>
                     <div id="iconos2">
                         <a href="juntos.html"><img src="images/icono2_adobespark.png" alt="torta"></a>
-
                     </div>
                     <div id="iconos3">
-                        <a href="regalos.html"><img src="images/icono3_adobespark.png" alt=""></a>
+                        <a href="regalos.html"><img src="images/icono3_adobespark.png" alt="auto"></a>
                     </div>
                     <div id="iconos4">
-                        <a href="propuestas.html"><img src="images/icono5_adobespark.png" alt=""></a>
+                        <a href="propuestas.html"><img src="images/icono5_adobespark.png" alt="casamiento"></a>
                     </div>
                     <div id="iconos5">
-                        <a href="contacto.html"><img src="images/icono7_adobespark.png" alt=""></a>
+                        <a href="contacto.html"><img src="images/icono7_adobespark.png" alt="corazones"></a>
                     </div>
                 </section>
-                <section class="imagenes"> <!--5-->
-                    <h4>
+                <section class="imagenes">
+                    <!--5-->
+                    <h4 class=" container-fluid text-center">
                         Civil Iglesia Fiesta
                     </h4>
+
                     <div class="image">
-                        <a href="contacto.html"><img src="images/images9.jpg" alt="" width="200" height="150"></a>
-                        <a href="contacto.html"> <img src="images/descarga1.jpg" alt="" width="200" height="150"></a>
-                        <a href="contacto.html"><img src="images/descarga2.jpg" alt="" width="200" height="150"></a>
-                    </div>
-                </section>
-                <br><br><br><br><br>
-                <section class="contactoDeIndex"> <!--6-->
-                    <div class="fondoLilaTablas">
-                        <br><br>
-                        <div class="ul">
-                            <ul>
-                                <li><a href="contacto.html">CONTACTO</a></li>
-                                <li><a href="propuestas.html">ACERCA</a></li>
-                                <li><a href="regalos.html">REGALOS</a></li>
-                            </ul>
-                        </div>
-                        <br><br>
+                        <a href="contacto.html"><img src="images/images9.jpg" class="img-thumbnail" alt="civil"></a>
+                        <a href="contacto.html"><img src="images/descarga1.jpg" class="img-thumbnail" alt="iglesia"></a>
+                        <a href="contacto.html"><img src="images/descarga3.jpg" class="img-thumbnail" alt="fiesta"></a>
                     </div>
                 </section>
             </main>
-            <footer> <!--7-->
-                <a href="contacto.html"><img src="images/red1.jpg" alt="" width="40" height="40"></a>
-                <a href="contacto.html"> <img src="images/red2.png" alt="" width="40" height="40"></a>
-                <a href="contacto.html"><img src="images/red3.png" alt="" width="40" height="40"></a>
-                <a href="contacto.html"> <img src="images/red4.png" alt="" width="40" height="40"></a>
-                <a href="contacto.html"><img src="images/red5.png" alt="" width="40" height="40"></a>
+            <!-- Footer -->
+            <footer class="page-footer font-small white-text darken-3">
+                <!-- Footer Elements -->
+                <div class="container">
+                    <!-- Grid row-->
+                    <div class="row">
+                        <!-- Grid column -->
+
+                        <div class="mb-5 flex-center">
+                            <a href="contacto.html"><img src="images/red1.jpg" class="img-thumbnail " width="40"
+                                    height="40""
+                                alt="red1 "></a>
+                            <a href=" contacto.html"> <img src="images/red2.png" class="img-thumbnail " width="40"
+                                    height="40""
+                                alt="red2"></a>
+                            <a href=" contacto.html"><img src="images/red3.png" class="img-thumbnail " width="40"
+                                    height="40""
+                                alt="red3"></a>
+                            <a href=" contacto.html"> <img src="images/red4.png" class="img-thumbnail " width="40"
+                                    height="40""
+                                alt="red4"></a>
+                            <a href=" contacto.html"><img src="images/red1.jpg" class="img-thumbnail " width="40"
+                                    height="40""
+                                alt="red5 "></a>
+                        </div>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row <div class=" col-md-12 py-5">
+                        </div>-->
+                    </div>
+                    <div class="footer-copyright text-center py-3">© 2021 Copyright:
+                        <a href=""> Web Casamientos</a>
+                    </div>
+                    <!-- Copyright -->
+                    <!--7
+               */ <a href="contacto.html"><img src="images/red1.jpg" class="img-thumbnail " width="40" height="40""
+                    alt=" "></a>
+                <a href="contacto.html"> <img src="images/red2.png" class="img-thumbnail " width="40" height="40""
+                    alt=""></a>
+                <a href=" contacto.html"><img src="images/red3.png" class="img-thumbnail " width="40" height="40""
+                    alt=""></a>
+                <a href=" contacto.html"> <img src="images/red4.png" class="img-thumbnail " width="40" height="40""
+                    alt=""></a>
+                <a href=" contacto.html"><img src="images/red5.png" class="img-thumbnail " width="40" height="40""
+                    alt=""></a>
                 <br>
-                <p class="pFooter">Copyright 2021</p>
+                <div class=" container-fluid">
+                    <p class="pFooter">Copyright 2021</p>
+        </div>-->
             </footer>
         </div>
-        </div>
-    </body>
+    </div>
+</body>
 
 </html>
