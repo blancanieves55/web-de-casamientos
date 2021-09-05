@@ -6,6 +6,14 @@
 @import "./partials/_colores.scss";
 @import "./partials/_navegacion.scss";
 
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
 body {
     background-color: white;
     font-family: 'Lobster', cursive;
