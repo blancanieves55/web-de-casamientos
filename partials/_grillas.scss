@@ -42,7 +42,7 @@
 }
 
 .grilla {
-    background-image: url("images/lilita.jpg");
+    background-image: url("../images/lilita.jpg");
     background-repeat: repeat;
     display: grid;
     grid-template-columns: 50% 50%;
@@ -90,11 +90,11 @@
   .enviar {
     background: none;
     grid-area: enviar;
-    background-image: url("images/lila2.jpg");
+    background-image: url("../images/lila2.jpg");
     text-align: center;
   }
   .limpiar {
     grid-area: limpiar;
-    background-image: url("images/lila2.jpg");
+    background-image: url("../images/lila2.jpg");
     background-position: left;
   }  
