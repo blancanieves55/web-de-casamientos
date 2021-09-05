@@ -1,71 +1,70 @@
 @media only screen and (max-width: 480px) { /* celu */
-    #mobileFirst {
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      justify-content: space-around;
-     padding: 1.25rem 0.75rem 0.25rem 0;   
-     }
-    .h1Principal {
-      font-size: 1.4rem;
-      margin: 0.2rem;
-    }
-    nav ul li {
-      font-size: 0.8rem;
-    }
-    #iconos {
-      grid-template-columns: 20% auto auto 20%;
-    }
-    h2.paginaPrincipal {
-      font-size: 1rem;
-    }
-    #iconos h3 {
-      font-size: 1.1rem;
-      padding: 0 1rem;
-    }
+  .mobileFirst {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   padding: 1.25rem 0.75rem 0.25rem 0;   
+   }
+  .h1Principal {
+    font-size: 1.4rem;
+    margin: 0.2rem;
   }
-      
-  @media only screen and (max-width: 780px) { /* tablet */
-    #mobileFirst {
+  nav ul li {
+    font-size: 0.8rem;
+  }
+  .iconos {
+    grid-template-columns: 20% auto auto 20%;
+  }
+  h2.paginaPrincipal {
+    font-size: 1rem;
+  }
+  .iconos h3 {
+    font-size: 1.1rem;
+    padding: 0 1rem;
+  }
+}
+    
+@media only screen and (max-width: 780px) { /* tablet */
+  .mobileFirst {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1.25rem 0.75rem 0.25rem 0;
+  }
+  .h1Principal {
+    font-size: 1.8rem;
+    margin: 0.2rem;
+  }
+  nav ul li {
+    font-size: 0.8rem;
+  }
+  .iconos {
+    grid-template-columns: 20% auto auto 20%;
+  }
+  .iconos h3 {
+    font-size: 1.2rem;
+    padding: 0 1rem;
+  }
+}
+
+  @media only screen and (max-width: 1024px) { /* compu */
+    .mobileFirst {
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
       justify-content: space-around;
       padding: 1.25rem 0.75rem 0.25rem 0;
     }
-    .h1Principal {
-      font-size: 1.8rem;
-      margin: 0.2rem;
-    }
-    nav ul li {
-      font-size: 0.8rem;
-    }
-    #iconos {
-      grid-template-columns: 20% auto auto 20%;
-    }
-    #iconos h3 {
-      font-size: 1.2rem;
-      padding: 0 1rem;
+  }
+
+  @media only screen and (min-width: 1025px) { /* compu */
+    .mobileFirst {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 1.25rem 0.75rem 0.25rem 0;
     }
   }
-  
-    @media only screen and (max-width: 1024px) { /* compu */
-      #mobileFirst {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        padding: 1.25rem 0.75rem 0.25rem 0;
-      }
-    }
-
-    @media only screen and (min-width: 1025px) { /* compu */
-      #mobileFirst {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        padding: 1.25rem 0.75rem 0.25rem 0;
-      }
-    }
-    

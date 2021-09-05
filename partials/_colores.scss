@@ -6,44 +6,66 @@
     border: 1px solid rgb(73, 40, 116);
 }
 
+.ul { 
+    list-style-image: url("images/icono1.png");
+}
+
 table {
-    background: rgb(233, 163, 163);
-    color: rgb(255, 0, 0);
-}
-
-.fondoLila {
-    background: rgb(187, 119, 172);
     width: fit-content;
-}
-
-.fondoPantallaPrincipal {
-    background-image: url("../images/fondolila.jpg");
-    width: 100%;
-    background-size: contain;
-}
-
-.fondoLilaTablas {
-    background-image: url("../images/lila2.jpg");
-    background-repeat: repeat;
-    width: 100%;
-}
-
-.fondoLilaPantallasAbajo {
-    background-image: url("../images/lilita.jpg");
-    background-repeat: repeat;
-}
-
-.fondoLilaOtrasPantallas {
-    background-image: url("../images/lila.jpg");
-    background-repeat: repeat;
-}
-
-.letraFrenteRosa {
-    color: rosybrown;
-}
-
-th {
+      background: rgb(74, 35, 90);
+      color: rgb(91, 44, 111);
+  }
+  th {
     list-style-type: none; 
-    background-color: rgb(146, 13, 13);
-}
+    background-color: rgb(74, 35, 90);
+    color: rgb(109, 115, 116);
+  }
+  
+  .fondoLila {
+      background: rgb(187, 119, 172);
+      width: fit-content;
+  }
+  
+  .fondoPantallaPrincipal {
+      background-image: url("images/fondolila.jpg");
+      width: 100%;
+      background-size: contain;
+  }
+  
+  .fondoLilaTablas {
+      background-image: url("images/lila2.jpg");
+      background-repeat: repeat;
+      width: 100%;
+  }
+  
+  .fondoLilaPantallasAbajo {
+      background-image: url("images/lilita.jpg");
+      background-repeat: repeat;
+  }
+  
+  .fondoLilaOtrasPantallas {
+      background-image: url("images/lila.jpg");
+      background-repeat: repeat;
+  }
+  .fondoLilaContacto {
+    background-image: url("images/lilita.jpg");
+    background-repeat: repeat;
+  }
+  
+  .letraFrenteRosa {
+      color: rosybrown;
+  }
 
+  .cabezota {
+    background-image: url("images/lilita.jpg");
+    background-repeat: repeat;
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.7rem;
+  }
+
+  footer {
+    background-color: #000;
+    padding: 1.25rem 0.75rem 0.25rem 0;
+    grid-area: patitas;
+  }
