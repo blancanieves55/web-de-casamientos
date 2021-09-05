@@ -1,3 +1,4 @@
+
 .cuadroRelleno {
     background: rgb(109, 115, 116);
     width: 25%;
@@ -33,13 +34,13 @@ table {
   }
   
   .fondoLilaTablas {
-      $background-image: url("../images/lila2.jpg");
+      background-image: url("../images/lila2.jpg");
       background-repeat: repeat;
       width: 100%;
   }
-  
+
   .fondoLilaPantallasAbajo {
-      background-image: $background-image;
+      background-image: url("../images/lilita.jpg");
       background-repeat: repeat;
   }
   
@@ -48,7 +49,7 @@ table {
       background-repeat: repeat;
   }
   .fondoLilaContacto {
-    $background-image: url("../images/lilita.jpg");
+    background-image: url("../images/lilita.jpg");
     background-repeat: repeat;
   }
   
@@ -57,7 +58,7 @@ table {
   }
 
   .cabezota {
-    background-image: $background-image;
+    background-image: url("../images/lilita.jpg");
     background-repeat: repeat;
     width: 100%;
     height: auto;

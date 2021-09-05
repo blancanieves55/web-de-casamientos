@@ -42,12 +42,13 @@
 }
 
 .grilla {
-    background-image: $background-image);
+    background-image: url("../images/lilita.jpg");
     background-repeat: repeat;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 12.5% repeat(4,auto) 7%;
-    margin-bottom: 3.2rem;
+    padding-bottom: 0;
+
     
     grid-template-areas:
     "nombre contactanos"
@@ -90,11 +91,11 @@
   .enviar {
     background: none;
     grid-area: enviar;
-    background-image: $background-image;
+    background-image:url("../images/lila2.jpg");
     text-align: center;
   }
   .limpiar {
     grid-area: limpiar;
-    background-image: $background-image;
+    background-image: url("../images/lila2.jpg");
     background-position: left;
   }  
