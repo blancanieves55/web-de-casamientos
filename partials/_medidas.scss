@@ -1,0 +1,43 @@
+.paginaPrincipal {
+    font-family: 'Otomanopee One', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 4rem;
+}
+
+.width {
+    width:2.6rem;
+  }
+  
+  .widthProveedores {
+    max-width: 100%;
+    height: auto;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  .video{
+    height: auto;
+    position: relative;
+    max-width: 80%;  
+
+  }
+
+  .widthIndex {
+    width:15rem;
+    height:auto;
+    padding-right: 2rem;
+    padding-bottom: 2rem;    
+  }
+
+  .transicionCeleste {
+    width: 100px; height: 150px;
+    transition: all 2s;      
+  }
+  
+  .transicionCeleste:hover {
+    height: 250px; width: 250px;
+    padding: 20px;
+  }
