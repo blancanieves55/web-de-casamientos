@@ -5,6 +5,7 @@
 @import "./partials/_P.scss";
 @import "./partials/_colores.scss";
 @import "./partials/_navegacion.scss";
+@import "./partials/_medidas.scss";
 
 *,
 *::after,
@@ -24,13 +25,4 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-}
-
-.paginaPrincipal {
-    font-family: 'Otomanopee One', sans-serif;
-    font-weight: 400;
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    text-align: center;
-    line-height: 4rem;
 }
