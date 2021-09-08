@@ -46,16 +46,16 @@
     background-repeat: repeat;
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 12.5% repeat(4,auto) 7%;
-    padding-bottom: 0;
+    grid-template-rows: 7% repeat(6,auto) 7%;;
 
     
     grid-template-areas:
-    "nombre contactanos"
-    "ponerNombre cuadro" 
-    "correo cuadro"
-    "mail mes"
-    "casar sino"
+    "nombre correo"
+    "nombre correo"
+    "ponerNombre mail" 
+    "mes mes"
+    "contactanos contactanos"
+    "cuadro cuadro"
     "enviar limpiar";
 
   gap: 0.1rem;
@@ -63,24 +63,30 @@
 }
  .nombre {
     grid-area: nombre;
+   
   }
  .contactanos { 
     grid-area: contactanos;
   }
  .ponerNombre {
     grid-area: ponerNombre;
+    
   }
  .cuadro {
     grid-area: cuadro;
   }  
  .correo {
     grid-area: correo;
+  
   } 
   .mes {
     grid-area: mes;
+    text-align: center;
+
   }
   .mail {
     grid-area: mail;
+
   }
   .casar {
     grid-area: casar;
@@ -98,4 +104,9 @@
     grid-area: limpiar;
     background-image: url("../images/lila2.jpg");
     background-position: left;
-  }  
+  } 
+
+  .videoGrid{
+   display: grid;
+   place-items: center;
+  }
